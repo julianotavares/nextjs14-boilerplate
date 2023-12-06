@@ -1,24 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Estrutura inicial de projeto em Next.JS 14 [Next.js](https://nextjs.org/) criado com [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-First, run the development server:
+## Como utilizar
+
+Clone este repositório para o seu ambiente de desenvolvimento
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/julianotavares/nextjs14-boilerplate <nome-que-deseja>
+```
+Entre na pasta do projeto e instale as dependências:
+```bash
+npm install
+# ou
+yarn install
+# ou
+pnpm install
+# ou
+bun install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Depois rode o comando para iniciar o projeto
+```bash
+npm run dev
+# ou
+yarn dev
+# ou
+pnpm run dev
+# ou
+bun run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Abra [http://localhost:3000](http://localhost:3000) em seu browser para ver o resultado.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Este projeto utiliza [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) para otimizar e carregar automaticamente a fonte Inter, uma fonte customizada do Google Font.
+
+# Outras informações direto da documentação do Next abaixo:
 
 ## Learn More
 
